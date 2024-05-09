@@ -1,0 +1,51 @@
+#userInfo {
+    background-color: #15161D;
+    color: #fafafa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(228, 220, 220, 0.1);
+}
+#titulo-info{
+    color: rgb(255, 255, 255);
+}
+
+.userHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.userHeader img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userHeader h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.userDetails p {
+    margin-bottom: 5px;
+}
+
+.userActions {
+    margin-top: 20px;
+}
+
+.userActions button {
+    background-color: #d10024;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.userActions button:hover {
+    background-color: #9c0017;
+}
