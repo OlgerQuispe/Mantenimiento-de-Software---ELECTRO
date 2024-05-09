@@ -249,7 +249,7 @@
           </div>
           <!-- /seccion de titulo -->
 
-          <!-- pestaña de productos y carrusel -->
+          <!-- pestaña de productos y carruse -->
           <div class="pestaña col-md-12" >
             <div class="row">
               <div class="products-tabs">
