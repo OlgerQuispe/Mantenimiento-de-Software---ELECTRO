@@ -139,7 +139,7 @@
             </div>
             <div class="userActions">
                 <button>Edit Information</button>
-                <button>Change Password</button>
+                <button ><a href="cambiar_contraseña.php">Change Password</a></button>
             </div>
        
     </div>
