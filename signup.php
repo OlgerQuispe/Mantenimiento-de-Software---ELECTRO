@@ -52,7 +52,7 @@
         <div class="container">
           <!-- fila -->
           <div class="row">
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-6 col-xs-6">
               <div class="footer">
                 <h3 class="footer-title">Sobre nosotros</h3>
                 <p>
@@ -83,10 +83,7 @@
                 <h3 class="footer-title">Categorias</h3>
                 <ul class="footer-links">
                   <li><a href="#">Ofertas</a></li>
-                  <li><a href="#">Notebook</a></li>
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Camaras</a></li>
-                  <li><a href="#">Accesorios</a></li>
+                  
                 </ul>
               </div>
             </div>
@@ -95,26 +92,12 @@
 
             <div class="col-md-3 col-xs-6">
               <div class="footer">
-                <h3 class="footer-title">Informacion</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Sobre Nosotros</a></li>
-                  <li><a href="#">Contactenos</a></li>
-                  <li><a href="#">Política de privacidad</a></li>
-                  <li><a href="#">Pedidos y Devoluciones</a></li>
-                  <li><a href="#">Términos y condiciones</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
                 <h3 class="footer-title">Servicios</h3>
                 <ul class="footer-links">
-                  <li><a href="#">Mi cuenta</a></li>
-                  <li><a href="#">Ver Carrito</a></li>
-                  <li><a href="#">Lista de deseos</a></li>
-                  <li><a href="#">Seguir mi pedido</a></li>
-                  <li><a href="#">Ayuda</a></li>
+                  <li><a href="usuario_info.php">Mi cuenta</a></li>
+                  <li><a href="index.php">Ver Carrito</a></li>
+                  <li><a href="index.php">Lista de deseos</a></li>
+                  <li><a href="index.php">Seguir mi pedido</a></li>
                 </ul>
               </div>
             </div>
@@ -133,30 +116,28 @@
             <div class="col-md-12 text-center">
               <ul class="footer-payments">
                 <li>
-                  <a href="#"><i class="fa fa-cc-visa"></i></a>
+                  <a <i class="fa fa-cc-visa"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-credit-card"></i></a>
+                  <a <i class="fa fa-credit-card"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-paypal"></i></a>
+                  <a <i class="fa fa-cc-paypal"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+                  <a <i class="fa fa-cc-mastercard"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-discover"></i></a>
+                  <a <i class="fa fa-cc-discover"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-amex"></i></a>
+                  <a <i class="fa fa-cc-amex"></i></a>
                 </li>
               </ul>
               <span class="saludo">
                 <p>
                   Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
-                  <a href="https://github.com/C-Alvarez98" target="_blank"
-                    >Cristian</a
-                  >
+                  <a href="https://github.com/OlgerQuispe/Mantenimiento-de-Software---ELECTRO" target="_blank">Olger</a>
                 </p>
               </span>
             </div>

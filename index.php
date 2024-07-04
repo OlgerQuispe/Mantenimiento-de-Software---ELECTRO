@@ -71,16 +71,13 @@
         <div class="container">
           <ul class="header-links pull-left">
             <li>
-              <a href="#"><i class="fa fa-phone"></i> +543814146349</a>
+              <a><i class="fa fa-phone"></i> +543814146349</a>
             </li>
             <li>
-              <a href="#"
-                ><i class="fa fa-envelope-o"></i> alvarez.cf98@gmail.com</a
-              >
+              <a><i class="fa fa-envelope-o"></i> alvarez.cf98@gmail.com</a>
             </li>
             <li>
-              <a href="#"
-                ><i class="fa fa-map-marker"></i> Argentina, Tucuman</a>
+              <a><i class="fa fa-map-marker"></i> Argentina, Tucuman</a>
             </li>
           </ul>
           <ul class="header-links pull-right">
@@ -216,11 +213,7 @@
         <div id="responsive-nav">
           <!-- nav -->
           <ul class="main-nav nav navbar-nav">
-              <li class="active"><a data-category="all">Inicio</a></li>
-              <li><a data-category="Notebook">Notebook</a></li>
-              <li><a data-category="Smartphones">Smartphones</a></li>
-              <li><a data-category="Camaras">Camaras</a></li>
-              <li><a data-category="Accesorios">Accesorios</a></li>
+              <li class="active"><a data-category="all">Inicio</a></li>              
           </ul>
           <!-- /nav -->
         </div>
@@ -273,8 +266,7 @@
                           </h3>
                           <h4 class="product-price">$<?php echo $producto['precio'] ?></h4>
                           <div>
-                            <h5 class="desription">DISCO: 64GB eMMC + 4GB DDR4 7th GENERACIÓN SUPER LIVIANA Y PRÁCTICA / TEC RETROILUMINADO IDEAL 
-                              PARA OFICINA / HOGAR / ESTUDIANTES WIFI SUPER POTENTE / BATERÍA 7HS</h5>
+                            <h5 class="desription">DISCO: 64GB eMMC + 4GB DDR4 7th GENERACIÓN SUPER LIVIANA Y PRÁCTICA </h5>
                           </div>
 
                           <hr />
@@ -284,7 +276,7 @@
 
                           <div class="product-btns">
                             <button class="add-to-wishlist">
-                              <i class="fa fa-heart-o"></i>
+                              <i class="fa fa-heart-o red-heart"></i>
                               <span class="tooltipp">añadir a lista de deseos</span>
                             </button>
                           </div>
@@ -337,29 +329,18 @@
         <div class="row">
           <div class="col-md-12">
             <div class="newsletter">
-              <p>Suscríbase a la <strong>Carta de Noticias</strong></p>
-              <form>
-                <input
-                  class="input"
-                  type="email"
-                  placeholder="Introduce tu correo electrónico"
-                />
-                <button class="newsletter-btn">
-                  <i class="fa fa-envelope"></i> Suscribetete
-                </button>
-              </form>
               <ul class="newsletter-follow">
                 <li>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="https://x.com/?lang=es"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                  <a href="https://www.pinterest.es/"><i class="fa fa-pinterest"></i></a>
                 </li>
               </ul>
             </div>
@@ -371,131 +352,112 @@
     </div>
     <!-- /carta noticias -->
 
-    <!-- pie de pagina -->
-    <footer id="footer">
-      <!-- pie de pagina supeior -->
-      <div class="section">
-        <!-- container -->
-        <div class="container">
-          <!-- fila -->
-          <div class="row">
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Sobre nosotros</h3>
-                <p>
-                  Somos un microemprendimiento realizando sus primeros pasos en
-                  el rubro de la informatica, estamos ubicados en la localidad
-                  de San Miguel de Tucuman.
-                </p>
-                <ul class="footer-links">
-                  <li>
-                    <a href="#"
-                      ><i class="fa fa-map-marker"></i>Argentina, Tucuman</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-phone"></i>+5493814146349</a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><i class="fa fa-envelope-o"></i>alvarez.cf98@gmail.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Categorias</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Ofertas</a></li>
-                  <li><a href="#">Notebook</a></li>
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Camaras</a></li>
-                  <li><a href="#">Accesorios</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="clearfix visible-xs"></div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Informacion</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Sobre Nosotros</a></li>
-                  <li><a href="#">Contactenos</a></li>
-                  <li><a href="#">Política de privacidad</a></li>
-                  <li><a href="#">Pedidos y Devoluciones</a></li>
-                  <li><a href="#">Términos y condiciones</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Servicios</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Mi cuenta</a></li>
-                  <li><a href="#">Ver Carrito</a></li>
-                  <li><a href="#">Lista de deseos</a></li>
-                  <li><a href="#">Seguir mi pedido</a></li>
-                  <li><a href="#">Ayuda</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- /fila -->
-        </div>
-        <!-- /container -->
-      </div>
-      <!-- /pie de pagina supeior -->
-
-      <!-- pie de pagina inferior -->
-      <div id="bottom-footer" class="section">
-        <div class="container">
-          <!-- fila -->
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul class="footer-payments">
+  <!-- pie de pagina -->
+  <footer id="footer">
+    <!-- pie de pagina supeior -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- fila -->
+        <div class="row">
+          <div class="col-md-6 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Sobre nosotros</h3>
+              <p>
+                Somos un microemprendimiento realizando sus primeros pasos en
+                el rubro de la informatica, estamos ubicados en la localidad
+                de San Miguel de Tucuman.
+              </p>
+              <ul class="footer-links">
                 <li>
-                  <a href="#"><i class="fa fa-cc-visa"></i></a>
+                  <a><i class="fa fa-map-marker"></i>Argentina, Tucuman</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-credit-card"></i></a>
+                  <a><i class="fa fa-phone"></i>+5493814146349</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-paypal"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-mastercard"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-discover"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-amex"></i></a>
+                  <a><i class="fa fa-envelope-o"></i>alvarez.cf98@gmail.com</a>
                 </li>
               </ul>
-              <span class="saludo">
-                <p>
-                  Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
-                  <a href="https://github.com/C-Alvarez98" target="_blank"
-                    >Cristian</a
-                  >
-                </p>
-              </span>
             </div>
           </div>
-          <!-- /fila -->
-        </div>
-        <!-- /container -->
-      </div>
-      <!-- /pie de pagina inferior -->
-    </footer>
-    <!-- /pie de pagina -->
 
+          <div class="col-md-3 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Categorias</h3>
+              <ul class="footer-links">
+                <li><a href="index.php">Ofertas</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="clearfix visible-xs"></div>
+
+          
+
+          <div class="col-md-3 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Servicios</h3>
+              <ul class="footer-links">
+                <li><a href="usuario_info.php">Mi cuenta</a></li>
+                <li><a href="index.php">Ver Carrito</a></li>
+                <li><a href="index.php">Lista de deseos</a></li>
+                <li><a href="index.php">Seguir mi pedido</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /fila -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /pie de pagina supeior -->
+
+    <!-- pie de pagina inferior -->
+    <div id="bottom-footer" class="section">
+      <div class="container">
+        <!-- fila -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="footer-payments">
+              <li>
+                <a <i class="fa fa-cc-visa"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-credit-card"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-paypal"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-mastercard"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-discover"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-amex"></i></a>
+              </li>
+            </ul>
+            <span class="saludo">
+              <p>
+                Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
+                <a href="https://github.com/OlgerQuispe/Mantenimiento-de-Software---ELECTRO" target="_blank">Olger</a>
+              </p>
+            </span>
+          </div>
+        </div>
+        <!-- /fila -->
+      </div>
+      <!-- /container -->
+
+    </div>
+    <!-- /pie de pagina inferior -->
+
+  </footer>
+  <!-- /pie de pagina -->
+    
     <!-- jQuery plugins -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -508,6 +470,7 @@
     <script src="js/starrr.js"></script>
     <script src="js/search.js"></script>
     <script src="js/search-category.js"></script>
+
     
     <script>
       $('#Estrellas').starrr({
@@ -546,5 +509,16 @@
           }
       });
     </script>
+
+  <script>
+    $(document).ready(function() {
+      $('.add-to-wishlist').on('click', function() {
+        $(this).find('i').toggleClass('fa-heart-o fa-heart red-heart');
+      });
+    });
+  </script>
+
+
+
   </body>
 </html>

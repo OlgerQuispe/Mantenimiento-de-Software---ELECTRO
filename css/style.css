@@ -387,6 +387,9 @@ textarea.input {
   right: 0px;
 }
 
+.red-heart {
+  color: red;
+}
 /*----------------------------*\
 	Breadcrumb
 \*----------------------------*/

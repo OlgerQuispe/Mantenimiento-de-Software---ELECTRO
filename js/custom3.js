@@ -47,6 +47,7 @@ function deleteProduct(e){
         countProduct--;
     }
     loadHtml();
+    
 }
 
 
@@ -80,6 +81,7 @@ function readTheContent(product){
         
         countProduct++;
     }
+
     loadHtml();
     //.log(infoProduct);
 }
@@ -110,7 +112,41 @@ function loadHtml(){
 
         amountProduct.innerHTML = countProduct;
     });
+    // Enviar datos del carrito a compraOrden.php mediante AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'checkout(Revisa).php', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+    // Convertir el array de buyThings a formato JSON
+    const jsonData = JSON.stringify(buyThings);
+    const params = `buyThings=${encodeURIComponent(jsonData)}&totalCard=${encodeURIComponent(totalCard)}`;
+
+    xhr.onload = function() {
+        if (xhr.status == 200) {
+            // Redireccionar a la página de la orden de compra
+            window.location.href = 'checkout(Revisa).php';
+        } else {
+            console.error('Error al enviar los datos del carrito.');
+        }
+    }
+
+    xhr.send(params);
+
 }
+
+// En custom.js
+
+function enviarDatosCompra() {
+    // Guardar datos en localStorage
+    localStorage.setItem('compraOrden', JSON.stringify({
+        productos: buyThings,
+        total: totalCard
+    }));
+
+    // Redireccionar o hacer una solicitud para enviar datos a compraOrden.js
+    window.location.href = 'compraOrden.html';
+}
+
 
 
 function clearHtml(){

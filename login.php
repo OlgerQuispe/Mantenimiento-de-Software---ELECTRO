@@ -50,130 +50,111 @@
     </form>
 
 
-    <!-- pie de pagina -->
-    <footer id="footer">
-      <!-- pie de pagina supeior -->
-      <div class="section">
-        <!-- container -->
-        <div class="container">
-          <!-- fila -->
-          <div class="row">
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Sobre nosotros</h3>
-                <p>
-                  Somos un microemprendimiento realizando sus primeros pasos en
-                  el rubro de la informatica, estamos ubicados en la localidad
-                  de San Miguel de Tucuman.
-                </p>
-                <ul class="footer-links">
-                  <li>
-                    <a href="#"
-                      ><i class="fa fa-map-marker"></i>Argentina, Tucuman</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-phone"></i>+5493814146349</a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><i class="fa fa-envelope-o"></i>alvarez.cf98@gmail.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Categorias</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Ofertas</a></li>
-                  <li><a href="#">Notebook</a></li>
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Camaras</a></li>
-                  <li><a href="#">Accesorios</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="clearfix visible-xs"></div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Informacion</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Sobre Nosotros</a></li>
-                  <li><a href="#">Contactenos</a></li>
-                  <li><a href="#">Política de privacidad</a></li>
-                  <li><a href="#">Pedidos y Devoluciones</a></li>
-                  <li><a href="#">Términos y condiciones</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-title">Servicios</h3>
-                <ul class="footer-links">
-                  <li><a href="#">Mi cuenta</a></li>
-                  <li><a href="#">Ver Carrito</a></li>
-                  <li><a href="#">Lista de deseos</a></li>
-                  <li><a href="#">Seguir mi pedido</a></li>
-                  <li><a href="#">Ayuda</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- /fila -->
-        </div>
-        <!-- /container -->
-      </div>
-      <!-- /pie de pagina supeior -->
-
-      <!-- pie de pagina inferior -->
-      <div id="bottom-footer" class="section">
-        <div class="container">
-          <!-- fila -->
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul class="footer-payments">
+      <!-- pie de pagina -->
+  <footer id="footer">
+    <!-- pie de pagina supeior -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- fila -->
+        <div class="row">
+          <div class="col-md-6 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Sobre nosotros</h3>
+              <p>
+                Somos un microemprendimiento realizando sus primeros pasos en
+                el rubro de la informatica, estamos ubicados en la localidad
+                de San Miguel de Tucuman.
+              </p>
+              <ul class="footer-links">
                 <li>
-                  <a href="#"><i class="fa fa-cc-visa"></i></a>
+                  <a><i class="fa fa-map-marker"></i>Argentina, Tucuman</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-credit-card"></i></a>
+                  <a><i class="fa fa-phone"></i>+5493814146349</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-cc-paypal"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-mastercard"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-discover"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-cc-amex"></i></a>
+                  <a><i class="fa fa-envelope-o"></i>alvarez.cf98@gmail.com</a>
                 </li>
               </ul>
-              <span class="saludo">
-                <p>
-                  Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
-                  <a href="https://github.com/C-Alvarez98" target="_blank"
-                    >Cristian</a
-                  >
-                </p>
-              </span>
             </div>
           </div>
-          <!-- /fila -->
+
+          <div class="col-md-3 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Categorias</h3>
+              <ul class="footer-links">
+                <li><a href="index.php">Ofertas</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="clearfix visible-xs"></div>
+
+          
+
+          <div class="col-md-3 col-xs-6">
+            <div class="footer">
+              <h3 class="footer-title">Servicios</h3>
+              <ul class="footer-links">
+                <li><a href="usuario_info.php">Mi cuenta</a></li>
+                <li><a href="index.php">Ver Carrito</a></li>
+                <li><a href="index.php">Lista de deseos</a></li>
+                <li><a href="index.php">Seguir mi pedido</a></li>
+
+              </ul>
+            </div>
+          </div>
         </div>
-        <!-- /container -->
+        <!-- /fila -->
       </div>
-      <!-- /pie de pagina inferior -->
-    </footer>
-    <!-- /pie de pagina -->
+      <!-- /container -->
+    </div>
+    <!-- /pie de pagina supeior -->
+
+    <!-- pie de pagina inferior -->
+    <div id="bottom-footer" class="section">
+      <div class="container">
+        <!-- fila -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="footer-payments">
+              <li>
+                <a <i class="fa fa-cc-visa"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-credit-card"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-paypal"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-mastercard"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-discover"></i></a>
+              </li>
+              <li>
+                <a <i class="fa fa-cc-amex"></i></a>
+              </li>
+            </ul>
+            <span class="saludo">
+              <p>
+                Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
+                <a href="https://github.com/OlgerQuispe/Mantenimiento-de-Software---ELECTRO" target="_blank">Olger</a>
+              </p>
+            </span>
+          </div>
+        </div>
+        <!-- /fila -->
+      </div>
+      <!-- /container -->
+
+    </div>
+    <!-- /pie de pagina inferior -->
+
+  </footer>
+  <!-- /pie de pagina -->
 
     <!-- jQuery plugins -->
     <script src="js/jquery.min.js"></script>
